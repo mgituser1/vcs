@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!-- salt:f91990a0-f7dd-45a0-8001-b882a00a2612 -->
+<!-- salt:cb444938-4e92-4286-ba23-c1e9ad98598e -->
 <metadata name="tutorial" path="/shared/examples/ds_inventory/tutorial" type="CONTAINER" subtype="SCHEMA" changeToken="0">
-  <annotation><![CDATA[mmmmmmmm,,,,,]]></annotation>
+  <annotation><![CDATA[mmmmmmmm,,,,,mmmm]]></annotation>
   <security>
     <owner user="admin" domain="composite"/>
     <privilege group="all" domain="composite" privileges="READ EXECUTE SELECT"/>
@@ -10,7 +10,7 @@
   <attribute name="creationDate" type="LONG">1395102483600</attribute>
   <attribute name="creatorUserDomain" type="STRING">composite</attribute>
   <attribute name="creatorUserName" type="STRING">admin</attribute>
-  <attribute name="lastModifiedDate" type="LONG">1629419322820</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1629419571824</attribute>
   <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
   <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
 </metadata>
