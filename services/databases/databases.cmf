@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!-- salt:a3646845-04e9-489b-9cdd-f04900ad0a74 -->
+<!-- salt:c8558e6f-a3ef-4890-bcb3-ce90f1334875 -->
 <metadata name="databases" path="/services/databases" type="CONTAINER" subtype="FOLDER" changeToken="0">
   <security>
     <owner user="admin" domain="composite"/>
