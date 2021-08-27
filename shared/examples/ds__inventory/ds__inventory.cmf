@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!-- salt:41858acc-5b4f-4c8f-b398-6b9248988f03 -->
+<!-- salt:0f055a81-1dac-4b91-bd46-f676aebbe4a8 -->
 <metadata name="ds_inventory" path="/shared/examples/ds_inventory" type="DATA_SOURCE" subtype="RELATIONAL" changeToken="0">
   <annotation><![CDATA[sample data source]]></annotation>
   <security>
@@ -31,7 +31,7 @@
   <attribute name="driverName" type="STRING">PostgreSQL 9.1</attribute>
   <attribute name="execTimeout" type="INTEGER">0</attribute>
   <attribute name="isPassThrough" type="STRING">Disabled</attribute>
-  <attribute name="lastModifiedDate" type="LONG">1630083584905</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1630091249966</attribute>
   <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
   <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
   <attribute name="login" type="STRING">tutorial</attribute>
@@ -41,7 +41,7 @@
   <attribute name="minTargetToSourceRatioForSJ" type="STRING"/>
   <attribute name="name" type="STRING">ds_inventory</attribute>
   <attribute name="nativeDataLoadingEnabled" type="BOOLEAN">true</attribute>
-  <attribute name="password" type="PASSWORD_STRING">ENC(/uN4eBDlpiktzAI0AU0i1A==$1Z11KtWz/6LazR0EzlSmUg==)</attribute>
+  <attribute name="password" type="PASSWORD_STRING">ENC(U/uoGjhbYMO3iT/ONwNJGw==$OEvTlMOGT4fsvUIb4ivV+w==)</attribute>
   <attribute name="patternSeparator" type="STRING">,</attribute>
   <attribute name="persistPassword" type="BOOLEAN">true</attribute>
   <attribute name="postgresqlEnableBulkLoad" type="BOOLEAN">true</attribute>
