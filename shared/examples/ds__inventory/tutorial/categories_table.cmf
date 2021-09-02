@@ -1,7 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!-- salt:d405c63e-ea12-4721-8a09-3f4bf1f5e53d -->
+<!-- salt:61cdeb68-30fa-42da-9c39-e3fcb7efbefd -->
 <metadata name="categories" path="/shared/examples/ds_inventory/tutorial/categories" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
-  <annotation><![CDATA[cccccc,,..]]></annotation>
   <columns>
     <column name="categoryid" nullable="false">
       <datatype name="int4" extendedName="int4" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
@@ -31,7 +30,7 @@
   <attribute name="creatorUserDomain" type="STRING">composite</attribute>
   <attribute name="creatorUserName" type="STRING">admin</attribute>
   <attribute name="i:0:indexSchema" type="STRING">tutorial</attribute>
-  <attribute name="lastModifiedDate" type="LONG">1630526057679</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1630607537098</attribute>
   <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
   <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
 </metadata>
