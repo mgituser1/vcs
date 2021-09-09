@@ -1,12 +1,12 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!-- salt:98133bc6-fead-48b7-8cbb-fe65e6637cd1 -->
+<!-- salt:421acf5d-ae7f-428b-9de6-d9ae82a91828 -->
 <metadata name="new" path="/shared/examples/new" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
   <annotation><![CDATA[mlmlm,,]]></annotation>
   <columns></columns>
   <indexes></indexes>
   <foreignKeys></foreignKeys>
   <security>
-    <owner user="admin" domain="composite"/>
+    <owner user="nobody" domain="composite"/>
   </security>
   <attribute name="SQL" type="NULL"/>
   <attribute name="creationDate" type="LONG">1631152302768</attribute>
@@ -16,7 +16,7 @@
   <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
   <attribute name="impactLevel" type="INTEGER">1</attribute>
   <attribute name="impactMessage" type="STRING">View is newly created and requires definition.</attribute>
-  <attribute name="lastModifiedDate" type="LONG">1631154241421</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1631155904260</attribute>
   <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
   <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
   <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
