@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!-- salt:ab3940b7-2a11-44f4-adc6-444661a2a295 -->
+<!-- salt:709ccced-324e-4176-b3a4-1cd359de8d19 -->
 <metadata name="ds_inventory" path="/shared/examples/ds_inventory" type="DATA_SOURCE" subtype="RELATIONAL" changeToken="0">
   <annotation><![CDATA[sample data source..]]></annotation>
   <security>
@@ -40,7 +40,7 @@
   <attribute name="minTargetToSourceRatioForSJ" type="STRING"/>
   <attribute name="name" type="STRING">ds_inventory</attribute>
   <attribute name="nativeDataLoadingEnabled" type="BOOLEAN">true</attribute>
-  <attribute name="password" type="PASSWORD_STRING">ENC(B+g6jdZ5z0wNpp0HGaPqJw==$AvlLds+AGQB5NxwjTCBWmQ==)</attribute>
+  <attribute name="password" type="PASSWORD_STRING">ENC(FUWn+lgJRRLE/RGCrHGDww==$r312OyksxKfk0ctVwwvEcw==)</attribute>
   <attribute name="patternSeparator" type="STRING">,</attribute>
   <attribute name="persistPassword" type="BOOLEAN">true</attribute>
   <attribute name="postgresqlEnableBulkLoad" type="BOOLEAN">true</attribute>
