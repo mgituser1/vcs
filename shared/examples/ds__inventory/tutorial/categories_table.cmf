@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!-- salt:46f231d2-505f-4c5a-aa3a-cd2ae7836545 -->
-<metadata name="categories" path="/shared/examples/ds_inventory/tutorial/categories" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+<!-- salt:503015db-961f-483d-be27-572298e6567b -->
+<metadata name="categories" path="/shared/examples/ds_inventory/tutorial/categories" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="NONE">
   <columns>
     <column name="categoryid" nullable="false">
       <datatype name="int4" extendedName="int4" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
@@ -18,7 +18,6 @@
   <indexes>
     <index name="categories_pkey" type="PRIMARY_KEY" unique="true">
       <indexColumn name="categoryid" sortOrder="ASCENDING"/>
-      <attribute name="indexSchema" type="STRING">tutorial</attribute>
     </index>
   </indexes>
   <foreignKeys></foreignKeys>
@@ -29,5 +28,7 @@
   <attribute name="creationDate" type="LONG">1397461564811</attribute>
   <attribute name="creatorUserDomain" type="STRING">composite</attribute>
   <attribute name="creatorUserName" type="STRING">admin</attribute>
-  <attribute name="i:0:indexSchema" type="STRING">tutorial</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1633457500896</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
 </metadata>
