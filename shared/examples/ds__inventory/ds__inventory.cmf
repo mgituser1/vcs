@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!-- salt:50ad5c62-6c75-4b14-8862-7d932595d414 -->
+<!-- salt:b91b81aa-4e7b-4757-a5df-569bef5f7247 -->
 <metadata name="ds_inventory" path="/shared/examples/ds_inventory" type="DATA_SOURCE" subtype="RELATIONAL" changeToken="0">
-  <annotation><![CDATA[sample data source!]]></annotation>
+  <annotation><![CDATA[sample data source!...]]></annotation>
   <security>
     <owner user="admin" domain="composite"/>
     <privilege group="all" domain="composite" privileges="READ EXECUTE SELECT"/>
@@ -30,7 +30,7 @@
   <attribute name="execTimeout" type="INTEGER">0</attribute>
   <attribute name="healthmonitortable" type="STRING">cis_hm_table</attribute>
   <attribute name="isPassThrough" type="STRING">Disabled</attribute>
-  <attribute name="lastModifiedDate" type="LONG">1633461044948</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1633461393121</attribute>
   <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
   <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
   <attribute name="login" type="STRING">tutorial</attribute>
@@ -40,7 +40,6 @@
   <attribute name="minTargetToSourceRatioForSJ" type="STRING"/>
   <attribute name="name" type="STRING">ds_inventory</attribute>
   <attribute name="nativeDataLoadingEnabled" type="BOOLEAN">true</attribute>
-  <attribute name="password" type="PASSWORD_STRING">ENC(mFsGyzchuInJmkwjQMXuwg==$IDrzjc1j7YWMA5mWB+t+ow==)</attribute>
   <attribute name="patternSeparator" type="STRING">,</attribute>
   <attribute name="persistPassword" type="BOOLEAN">true</attribute>
   <attribute name="postgresqlEnableBulkLoad" type="BOOLEAN">true</attribute>
