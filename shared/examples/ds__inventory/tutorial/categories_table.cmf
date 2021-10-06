@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!-- salt:4ef0a728-d9ba-438b-b1dc-0d4378f0c5ff -->
+<!-- salt:ae1c9cf5-ab37-4172-bfa2-9ee97343a011 -->
 <metadata name="categories" path="/shared/examples/ds_inventory/tutorial/categories" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="NONE">
   <columns>
     <column name="categoryid" nullable="false">
@@ -28,7 +28,7 @@
   <attribute name="creationDate" type="LONG">1397461564811</attribute>
   <attribute name="creatorUserDomain" type="STRING">composite</attribute>
   <attribute name="creatorUserName" type="STRING">admin</attribute>
-  <attribute name="lastModifiedDate" type="LONG">1633542701640</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1633543192944</attribute>
   <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
   <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
 </metadata>
