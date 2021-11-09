@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:6f2a527e-5ccd-4e81-9471-c820f9c92f30 -->
+<metadata name="purchaseorders" path="/services/databases/ds1/tutorial/purchaseorders" type="LINK" subtype="NONE" changeToken="0" virtual="true">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/examples/ds_inventory/tutorial/purchaseorders" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="purchaseorderid" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ponumber">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="purchaseorderdescription">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="supplierid">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="employeeid">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="orderdate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="daterequired">
+        <datatype type="DATE"/>
+      </element>
+      <element name="datepromised">
+        <datatype type="DATE"/>
+      </element>
+      <element name="shipdate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="shippingmethodid">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="freightcharge">
+        <datatype type="DECIMAL" maxDigits="12" minFractionalDigits="2" maxFractionalDigits="2"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="creationDate" type="LONG">1636414016951</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1636414016951</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1636414016951</attribute>
+  <attribute name="targetPath" type="STRING">/shared/examples/ds_inventory/tutorial/purchaseorders</attribute>
+  <attribute name="targetType" type="SHORT">2</attribute>
+</metadata>
