@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="New_service" path="/services/webservices/New_service" type="DATA_SOURCE" subtype="COMPOSITE_WEB_SERVICE" changeToken="0" virtual="true">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/policy/security/system/Http-Basic-Authentication.xml" type="POLICY">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/services/webservices/New_service/myview" type="LINK">
+    <datatype type="TABLE" refId="256">
+      <element name="OrderID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ProductID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="Discount">
+        <datatype type="DECIMAL" maxDigits="12" minFractionalDigits="2" maxFractionalDigits="2"/>
+      </element>
+      <element name="OrderDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="CompanyName">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="CustomerContactFirstName">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="CustomerContactLastName">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="CustomerContactPhone">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="ProductName">
+        <datatype namespace="http://www.w3.org/2001/XMLSchema" superTypeName="anySimpleType" superTypeNamespace="http://www.w3.org/2001/XMLSchema" type="STRING" maxLength="32768"/>
+      </element>
+      <element name="TransactionID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DateRequired">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DatePromised">
+        <datatype type="DATE"/>
+      </element>
+      <element name="ShipDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="SupplierID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SupplierName">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="SupplierContactName">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="SupplierPhoneNumber">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="bindingModel" type="STRING">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&lt;bindingModel&gt;&lt;portBindings&gt;&lt;portBinding xsi:type=&quot;soapPortBinding&quot; timeout=&quot;0&quot; targetNamespace=&quot;http://tempuri.org/&quot; serviceName=&quot;New_service&quot; portTypeName=&quot;{http://tempuri.org/}New_servicePortType&quot; portName=&quot;New_servicePort&quot; policyName=&quot;/policy/security/system/Http-Basic-Authentication.xml&quot; implementationFolder=&quot;/shared/impl/New_service&quot; enableMTOM=&quot;false&quot; enableCustomEndpoint=&quot;false&quot; contractStyle=&quot;ABSTRACT&quot; contractFirst=&quot;false&quot; bindingName=&quot;{http://tempuri.org/}New_serviceBinding&quot; soap12ContextUrlPath=&quot;/soap12&quot; soap11ContextUrlPath=&quot;/soap11&quot; endpointUrlPath=&quot;/New_service&quot; enabled=&quot;true&quot; bindingStyles=&quot;WSDL11_SOAP11_HTTP WSDL11_SOAP12_HTTP&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;operationBindings&gt;&lt;operationBinding xsi:type=&quot;soapTableBinding&quot; usePortPipeline=&quot;false&quot; useOutputEnvelop=&quot;false&quot; useInputEnvelop=&quot;false&quot; timeout=&quot;0&quot; enableSOAPAction=&quot;true&quot; enableMTOM=&quot;false&quot; enableFastInfoset=&quot;false&quot; resourceName=&quot;myview&quot;&gt;&lt;inputBinding xsi:type=&quot;soapMessageBinding&quot; parameterStyle=&quot;WRAPPED&quot;&gt;&lt;wrapper xsi:type=&quot;soapWrapper&quot; partName=&quot;parameters&quot; messageName=&quot;{http://tempuri.org/}myviewInput&quot; elementTypeName=&quot;{http://tempuri.org/}myviewType&quot; elementName=&quot;{http://tempuri.org/}myview&quot;/&gt;&lt;/inputBinding&gt;&lt;outputBinding xsi:type=&quot;soapMessageBinding&quot; parameterStyle=&quot;WRAPPED&quot;&gt;&lt;wrapper xsi:type=&quot;soapWrapper&quot; partName=&quot;parameters&quot; messageName=&quot;{http://tempuri.org/}myviewOutput&quot; elementTypeName=&quot;{http://tempuri.org/}myviewResponseType&quot; elementName=&quot;{http://tempuri.org/}myviewResponse&quot;/&gt;&lt;/outputBinding&gt;&lt;parameterBindings&gt;&lt;parameterBinding xsi:type=&quot;soapParameterBinding&quot; useChildParameter=&quot;false&quot; partName=&quot;input&quot; messageName=&quot;{http://tempuri.org/}myviewInput&quot; location=&quot;body&quot; faultName=&quot;input&quot; name=&quot;input&quot; elementName=&quot;{http://tempuri.org/}myviewInput&quot; direction=&quot;INPUT&quot;/&gt;&lt;parameterBinding xsi:type=&quot;soapParameterBinding&quot; useChildParameter=&quot;false&quot; partName=&quot;output&quot; messageName=&quot;{http://tempuri.org/}myviewOutput&quot; location=&quot;body&quot; faultName=&quot;output&quot; name=&quot;output&quot; elementName=&quot;{http://tempuri.org/}myviewOutput&quot; direction=&quot;OUTPUT&quot;&gt;&lt;cursorBinding rowElementTypeName=&quot;{http://tempuri.org/}myviewOutputOutputRowType&quot; rowElementName=&quot;row&quot; cursorTypeName=&quot;{http://tempuri.org/}myviewOutputOutputCursorType&quot;&gt;&lt;columnBindings&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;OrderID&quot; elementName=&quot;OrderID&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;ProductID&quot; elementName=&quot;ProductID&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;Discount&quot; elementName=&quot;Discount&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;OrderDate&quot; elementName=&quot;OrderDate&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;CompanyName&quot; elementName=&quot;CompanyName&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;CustomerContactFirstName&quot; elementName=&quot;CustomerContactFirstName&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;CustomerContactLastName&quot; elementName=&quot;CustomerContactLastName&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;CustomerContactPhone&quot; elementName=&quot;CustomerContactPhone&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;ProductName&quot; elementName=&quot;ProductName&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;TransactionID&quot; elementName=&quot;TransactionID&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;DateRequired&quot; elementName=&quot;DateRequired&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;DatePromised&quot; elementName=&quot;DatePromised&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;ShipDate&quot; elementName=&quot;ShipDate&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;SupplierID&quot; elementName=&quot;SupplierID&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;SupplierName&quot; elementName=&quot;SupplierName&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;SupplierContactName&quot; elementName=&quot;SupplierContactName&quot;/&gt;&lt;columnBinding xsi:type=&quot;soapColumnBinding&quot; name=&quot;SupplierPhoneNumber&quot; elementName=&quot;SupplierPhoneNumber&quot;/&gt;&lt;/columnBindings&gt;&lt;/cursorBinding&gt;&lt;/parameterBinding&gt;&lt;/parameterBindings&gt;&lt;/operationBinding&gt;&lt;/operationBindings&gt;&lt;/portBinding&gt;&lt;portBinding xsi:type=&quot;restfulPortBinding&quot; targetNamespace=&quot;http://tempuri.org/&quot; serviceName=&quot;New_service&quot; jsonWrappedTable=&quot;true&quot; jsonWrappedCursor=&quot;true&quot; jsonValidateXml=&quot;true&quot; jsonUseProcParamName=&quot;false&quot; jsonPackageName=&quot;New_service&quot; jsonFieldAsString=&quot;false&quot; jsonBareValue=&quot;false&quot; xmlContextUrlPath=&quot;/xml&quot; jsonContextUrlPath=&quot;/json&quot; endpointUrlPath=&quot;/New_service&quot; enabled=&quot;true&quot; bindingStyles=&quot;REST_XML REST_JSON&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;operationBindings&gt;&lt;operationBinding xsi:type=&quot;restfulTableBinding&quot; operationPathTemplate=&quot;/myview&quot; httpMethod=&quot;GET&quot; resourceName=&quot;myview&quot;&gt;&lt;inputBinding xsi:type=&quot;restfulMessageBinding&quot; parameterStyle=&quot;WRAPPED&quot;&gt;&lt;wrapper xsi:type=&quot;restfulWrapper&quot; elementTypeName=&quot;{http://tempuri.org/}myviewType&quot; elementName=&quot;{http://tempuri.org/}myview&quot;/&gt;&lt;/inputBinding&gt;&lt;outputBinding xsi:type=&quot;restfulMessageBinding&quot; parameterStyle=&quot;WRAPPED&quot;&gt;&lt;wrapper xsi:type=&quot;restfulWrapper&quot; elementTypeName=&quot;{http://tempuri.org/}myviewResponseType&quot; elementName=&quot;{http://tempuri.org/}myviewResponse&quot;/&gt;&lt;/outputBinding&gt;&lt;parameterBindings&gt;&lt;parameterBinding xsi:type=&quot;restfulParameterBinding&quot; xml=&quot;false&quot; nulLable=&quot;false&quot; bindingLocation=&quot;entity&quot; typeName=&quot;{http://tempuri.org/}myviewInputType&quot; name=&quot;input&quot; elementName=&quot;{http://tempuri.org/}myviewInput&quot; direction=&quot;INPUT&quot;/&gt;&lt;parameterBinding xsi:type=&quot;restfulParameterBinding&quot; xml=&quot;false&quot; nulLable=&quot;false&quot; bindingLocation=&quot;entity&quot; typeName=&quot;{http://tempuri.org/}myviewOutputType&quot; name=&quot;output&quot; elementName=&quot;{http://tempuri.org/}myviewOutput&quot; direction=&quot;OUTPUT&quot;&gt;&lt;cursorBinding rowElementTypeName=&quot;{http://tempuri.org/}myviewOutputRowType&quot; rowElementName=&quot;row&quot; cursorTypeName=&quot;{http://tempuri.org/}myviewOutputCursorType&quot;&gt;&lt;columnBindings&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}int&quot; name=&quot;OrderID&quot; elementName=&quot;OrderID&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}int&quot; name=&quot;ProductID&quot; elementName=&quot;ProductID&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}decimal&quot; name=&quot;Discount&quot; elementName=&quot;Discount&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}date&quot; name=&quot;OrderDate&quot; elementName=&quot;OrderDate&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}string&quot; name=&quot;CompanyName&quot; elementName=&quot;CompanyName&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}string&quot; name=&quot;CustomerContactFirstName&quot; elementName=&quot;CustomerContactFirstName&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}string&quot; name=&quot;CustomerContactLastName&quot; elementName=&quot;CustomerContactLastName&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}string&quot; name=&quot;CustomerContactPhone&quot; elementName=&quot;CustomerContactPhone&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}string&quot; name=&quot;ProductName&quot; elementName=&quot;ProductName&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}int&quot; name=&quot;TransactionID&quot; elementName=&quot;TransactionID&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}date&quot; name=&quot;DateRequired&quot; elementName=&quot;DateRequired&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}date&quot; name=&quot;DatePromised&quot; elementName=&quot;DatePromised&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}date&quot; name=&quot;ShipDate&quot; elementName=&quot;ShipDate&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}int&quot; name=&quot;SupplierID&quot; elementName=&quot;SupplierID&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}string&quot; name=&quot;SupplierName&quot; elementName=&quot;SupplierName&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}string&quot; name=&quot;SupplierContactName&quot; elementName=&quot;SupplierContactName&quot;/&gt;&lt;columnBinding xsi:type=&quot;restfulColumnBinding&quot; typeName=&quot;{http://www.w3.org/2001/XMLSchema}string&quot; name=&quot;SupplierPhoneNumber&quot; elementName=&quot;SupplierPhoneNumber&quot;/&gt;&lt;/columnBindings&gt;&lt;/cursorBinding&gt;&lt;/parameterBinding&gt;&lt;/parameterBindings&gt;&lt;/operationBinding&gt;&lt;/operationBindings&gt;&lt;httpSecurityModel transportSecurity=&quot;ENABLED&quot; authSchemes=&quot;BASIC&quot;/&gt;&lt;/portBinding&gt;&lt;portBinding xsi:type=&quot;oDataPortBinding&quot; writable=&quot;false&quot; useActionforProc=&quot;false&quot; targetNamespace=&quot;New_service&quot; showCapabilities=&quot;false&quot; serviceName=&quot;New_service&quot; contextUrlPath=&quot;/odata4/webservices/&quot; endpointUrlPath=&quot;/New_service&quot; enabled=&quot;true&quot; bindingStyles=&quot;ODATAV4&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;operationBindings/&gt;&lt;httpSecurityModel transportSecurity=&quot;ENABLED&quot; authSchemes=&quot;BASIC&quot;/&gt;&lt;ODataMetadataMode&gt;INCLUDE_SUBSERVICES_NAME&lt;/ODataMetadataMode&gt;&lt;/portBinding&gt;&lt;/portBindings&gt;&lt;/bindingModel&gt;</attribute>
+  <attribute name="creationDate" type="LONG">1686303487756</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="driverName" type="STRING">COMPOSITE_WEB_SERVICE</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1686303492373</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="name" type="STRING">New_service</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1686303487756</attribute>
+  <attribute name="type" type="STRING">CompositeWebService</attribute>
+</metadata>
