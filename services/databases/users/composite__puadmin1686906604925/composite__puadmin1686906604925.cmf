@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="composite_puadmin1686906604925" path="/services/databases/users/composite_puadmin1686906604925" type="CONTAINER" subtype="SCHEMA" changeToken="0" virtual="true">
+  <security>
+    <owner user="puadmin1686906604925" domain="composite"/>
+    <privilege user="puadmin1686906604925" domain="composite" privileges="READ WRITE"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1686906664559</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">18642</attribute>
+  <attribute name="creatorUserName" type="STRING">puadmin1686906604925</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1686906664559</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">18642</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">puadmin1686906604925</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1686906664559</attribute>
+</metadata>
