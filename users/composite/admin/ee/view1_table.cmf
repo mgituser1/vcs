@@ -1,6 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
 <metadata name="view1" path="/users/composite/admin/ee/view1" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <annotation><![CDATA[ddeee]]></annotation>
   <columns></columns>
   <indexes></indexes>
   <foreignKeys></foreignKeys>
@@ -12,10 +13,11 @@
   <attribute name="creatorUserDomain" type="STRING">composite</attribute>
   <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
   <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
   <attribute name="impactLevel" type="INTEGER">1</attribute>
   <attribute name="impactLevelLabel" type="STRING">UNKNOWN</attribute>
   <attribute name="impactMessage" type="STRING">View is newly created and requires definition.</attribute>
-  <attribute name="lastModifiedDate" type="LONG">1688683222095</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1688683261112</attribute>
   <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
   <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
   <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
