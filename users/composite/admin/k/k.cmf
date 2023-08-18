@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="k" path="/users/composite/admin/k" type="CONTAINER" subtype="FOLDER" changeToken="0">
+  <annotation><![CDATA[pp]]></annotation>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1692377664515</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1692377842303</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1692377664515</attribute>
+  <attribute name="webui_model" type="STRING">{&quot;nodes&quot;:[],&quot;name&quot;:&quot;k&quot;,&quot;description&quot;:&quot;pp&quot;,&quot;scriptResourcePath&quot;:&quot;/users/composite/admin/k/k&quot;,&quot;id&quot;:&quot;acdd3da5-9096-9bbb-4e8c-7febd60565e4&quot;,&quot;viewResourcePath&quot;:&quot;&quot;,&quot;lastModifiedTimestamp&quot;:&quot;2023-08-18T16:57:22.287Z&quot;,&quot;createTimestamp&quot;:&quot;2023-08-18T16:54:23.714Z&quot;}</attribute>
+</metadata>
