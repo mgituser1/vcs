@@ -45,7 +45,7 @@
   <attribute name="impactLevel" type="INTEGER">8</attribute>
   <attribute name="impactLevelLabel" type="STRING">MISSING_RESOURCE</attribute>
   <attribute name="impactMessage" type="STRING">The target element definition cannot be found . The definition set &apos;/shared/examples/ds_XML/productCatalogDefinitions&apos; does not contain an element named &apos;product&apos;.</attribute>
-  <attribute name="lastModifiedDate" type="LONG">1692383217557</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1692385273490</attribute>
   <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
   <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
   <attribute name="lastModifiedUserName" type="STRING">admin</attribute>

@@ -1,7 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
 <metadata name="productCatalog_Transformation" path="/shared/examples/productCatalog_Transformation" type="PROCEDURE" subtype="XSLT_TRANSFORM_PROCEDURE" changeToken="0">
-  <annotation><![CDATA[abcdsdsdd]]></annotation>
   <parameters>
     <parameter name="outputs" direction="OUT" nullable="false">
       <datatype name="outputs" type="TABLE" refId="256">
@@ -97,7 +96,7 @@
   <attribute name="creatorUserDomain" type="STRING"/>
   <attribute name="creatorUserName" type="STRING"/>
   <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
-  <attribute name="lastModifiedDate" type="LONG">1692383678429</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1692385273490</attribute>
   <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
   <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
   <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
@@ -107,15 +106,15 @@
   <attribute name="transformModel" type="STRING">
 &lt;transformModel customized=&quot;false&quot;&gt;
   &lt;signature&gt;
-    &lt;datatype type=&quot;TREE&quot; refId=&quot;257&quot;&gt;
+    &lt;datatype type=&quot;TREE&quot; refId=&quot;1&quot;&gt;
       &lt;element name=&quot;inputs&quot;&gt;
-        &lt;datatype name=&quot;inputs&quot; type=&quot;TREE&quot; refId=&quot;513&quot;&gt;
+        &lt;datatype name=&quot;inputs&quot; type=&quot;TREE&quot; refId=&quot;2&quot;&gt;
           &lt;element name=&quot;catalog&quot; nullable=&quot;false&quot;&gt;
             &lt;datatype name=&quot;catalog&quot; referenceDefinitionSet=&quot;/shared/examples/ds_XML/productCatalogDefinitions&quot; referenceType=&quot;catalog&quot; subType=&quot;ELEMENT_DECL&quot; type=&quot;XML&quot; contentConstraint=&quot;SEQUENCE&quot; schemaConstraint=&quot;ANY&quot; componentType=&quot;ELEMENT&quot; componentName=&quot;catalog&quot;&gt;
               &lt;schemaDatatype&gt;
-                &lt;datatype name=&quot;catalog&quot; superTypeName=&quot;anyType&quot; superTypeNamespace=&quot;http://www.w3.org/2001/XMLSchema&quot; subType=&quot;ELEMENT_DECL&quot; anonymous=&quot;true&quot; type=&quot;TREE&quot; refId=&quot;769&quot;&gt;
+                &lt;datatype name=&quot;catalog&quot; superTypeName=&quot;anyType&quot; superTypeNamespace=&quot;http://www.w3.org/2001/XMLSchema&quot; subType=&quot;ELEMENT_DECL&quot; anonymous=&quot;true&quot; type=&quot;TREE&quot; refId=&quot;3&quot;&gt;
                   &lt;element name=&quot;category&quot; maxOccurs=&quot;2147483647&quot; minOccurs=&quot;0&quot;&gt;
-                    &lt;datatype superTypeName=&quot;anyType&quot; superTypeNamespace=&quot;http://www.w3.org/2001/XMLSchema&quot; subType=&quot;COMPLEX_TYPE&quot; type=&quot;TREE&quot; refId=&quot;1025&quot;&gt;
+                    &lt;datatype superTypeName=&quot;anyType&quot; superTypeNamespace=&quot;http://www.w3.org/2001/XMLSchema&quot; subType=&quot;COMPLEX_TYPE&quot; type=&quot;TREE&quot; refId=&quot;4&quot;&gt;
                       &lt;element name=&quot;CategoryID&quot;&gt;
                         &lt;datatype name=&quot;byte&quot; namespace=&quot;http://www.w3.org/2001/XMLSchema&quot; superTypeName=&quot;short&quot; superTypeNamespace=&quot;http://www.w3.org/2001/XMLSchema&quot; type=&quot;INTEGER&quot; minValue=&quot;-128&quot; maxValue=&quot;127&quot;/&gt;
                       &lt;/element&gt;
@@ -123,9 +122,9 @@
                         &lt;datatype name=&quot;string&quot; namespace=&quot;http://www.w3.org/2001/XMLSchema&quot; superTypeName=&quot;anySimpleType&quot; superTypeNamespace=&quot;http://www.w3.org/2001/XMLSchema&quot; type=&quot;STRING&quot; maxLength=&quot;2147483647&quot;/&gt;
                       &lt;/element&gt;
                       &lt;element name=&quot;products&quot; minOccurs=&quot;0&quot;&gt;
-                        &lt;datatype superTypeName=&quot;anyType&quot; superTypeNamespace=&quot;http://www.w3.org/2001/XMLSchema&quot; subType=&quot;COMPLEX_TYPE&quot; type=&quot;TREE&quot; refId=&quot;1281&quot;&gt;
+                        &lt;datatype superTypeName=&quot;anyType&quot; superTypeNamespace=&quot;http://www.w3.org/2001/XMLSchema&quot; subType=&quot;COMPLEX_TYPE&quot; type=&quot;TREE&quot; refId=&quot;5&quot;&gt;
                           &lt;element name=&quot;product&quot; maxOccurs=&quot;2147483647&quot; minOccurs=&quot;0&quot;&gt;
-                            &lt;datatype superTypeName=&quot;anyType&quot; superTypeNamespace=&quot;http://www.w3.org/2001/XMLSchema&quot; subType=&quot;COMPLEX_TYPE&quot; type=&quot;TREE&quot; refId=&quot;1537&quot;&gt;
+                            &lt;datatype superTypeName=&quot;anyType&quot; superTypeNamespace=&quot;http://www.w3.org/2001/XMLSchema&quot; subType=&quot;COMPLEX_TYPE&quot; type=&quot;TREE&quot; refId=&quot;6&quot;&gt;
                               &lt;element name=&quot;ProductID&quot;&gt;
                                 &lt;datatype name=&quot;byte&quot; namespace=&quot;http://www.w3.org/2001/XMLSchema&quot; superTypeName=&quot;short&quot; superTypeNamespace=&quot;http://www.w3.org/2001/XMLSchema&quot; type=&quot;INTEGER&quot; minValue=&quot;-128&quot; maxValue=&quot;127&quot;/&gt;
                               &lt;/element&gt;
@@ -160,9 +159,9 @@
         &lt;/datatype&gt;
       &lt;/element&gt;
       &lt;element name=&quot;outputs&quot;&gt;
-        &lt;datatype name=&quot;outputs&quot; type=&quot;TREE&quot; refId=&quot;1793&quot;&gt;
+        &lt;datatype name=&quot;outputs&quot; type=&quot;TREE&quot; refId=&quot;7&quot;&gt;
           &lt;element name=&quot;outputs&quot;&gt;
-            &lt;datatype name=&quot;outputs&quot; type=&quot;TABLE&quot; refId=&quot;256&quot;&gt;
+            &lt;datatype name=&quot;outputs&quot; type=&quot;TABLE&quot; refId=&quot;8&quot;&gt;
               &lt;element name=&quot;ProductID&quot;&gt;
                 &lt;datatype name=&quot;NUMERIC&quot; namespace=&quot;http://www.w3.org/2001/XMLSchema&quot; superTypeName=&quot;decimal&quot; superTypeNamespace=&quot;http://www.w3.org/2001/XMLSchema&quot; type=&quot;DECIMAL&quot; maxDigits=&quot;32&quot; maxFractionalDigits=&quot;0&quot;/&gt;
               &lt;/element&gt;
@@ -253,21 +252,50 @@
               &amp;lt;/xslt:element&amp;gt;
             &amp;lt;/xslt:for-each&amp;gt;
           &amp;lt;/xslt:for-each&amp;gt;
+          &amp;lt;xslt:element name=&amp;quot;result&amp;quot;&amp;gt;
+            &amp;lt;xslt:element name=&amp;quot;ProductID&amp;quot;&amp;gt;
+              &amp;lt;xslt:value-of select=&amp;quot;$_ProductID&amp;quot;/&amp;gt;
+            &amp;lt;/xslt:element&amp;gt;
+            &amp;lt;xslt:element name=&amp;quot;ProductName&amp;quot;&amp;gt;
+              &amp;lt;xslt:value-of select=&amp;quot;$_ProductName&amp;quot;/&amp;gt;
+            &amp;lt;/xslt:element&amp;gt;
+            &amp;lt;xslt:element name=&amp;quot;CategoryID&amp;quot;&amp;gt;
+              &amp;lt;xslt:value-of select=&amp;quot;$_CategoryID&amp;quot;/&amp;gt;
+            &amp;lt;/xslt:element&amp;gt;
+            &amp;lt;xslt:element name=&amp;quot;CategoryName&amp;quot;&amp;gt;
+              &amp;lt;xslt:value-of select=&amp;quot;$_CategoryName&amp;quot;/&amp;gt;
+            &amp;lt;/xslt:element&amp;gt;
+            &amp;lt;xslt:element name=&amp;quot;ProductDescription&amp;quot;&amp;gt;
+              &amp;lt;xslt:value-of select=&amp;quot;$_ProductDescription&amp;quot;/&amp;gt;
+            &amp;lt;/xslt:element&amp;gt;
+            &amp;lt;xslt:element name=&amp;quot;SerialNumber&amp;quot;&amp;gt;
+              &amp;lt;xslt:value-of select=&amp;quot;$_SerialNumber&amp;quot;/&amp;gt;
+            &amp;lt;/xslt:element&amp;gt;
+            &amp;lt;xslt:element name=&amp;quot;UnitPrice&amp;quot;&amp;gt;
+              &amp;lt;xslt:value-of select=&amp;quot;$_UnitPrice&amp;quot;/&amp;gt;
+            &amp;lt;/xslt:element&amp;gt;
+            &amp;lt;xslt:element name=&amp;quot;ReorderLevel&amp;quot;&amp;gt;
+              &amp;lt;xslt:value-of select=&amp;quot;$_ReorderLevel&amp;quot;/&amp;gt;
+            &amp;lt;/xslt:element&amp;gt;
+            &amp;lt;xslt:element name=&amp;quot;LeadTime&amp;quot;&amp;gt;
+              &amp;lt;xslt:value-of select=&amp;quot;$_LeadTime&amp;quot;/&amp;gt;
+            &amp;lt;/xslt:element&amp;gt;
+          &amp;lt;/xslt:element&amp;gt;
         &amp;lt;/xslt:for-each&amp;gt;
       &amp;lt;/xslt:for-each&amp;gt;
     &amp;lt;/xslt:element&amp;gt;
   &amp;lt;/xslt:template&amp;gt;
 &amp;lt;/xslt:stylesheet&amp;gt;&lt;/xslt&gt;
   &lt;links&gt;
+    &lt;link source=&quot;/inputs/catalog/category/products/product/ProductName&quot; target=&quot;/outputs/outputs/ProductName&quot;/&gt;
     &lt;link source=&quot;/inputs/catalog/category/CategoryID&quot; target=&quot;/outputs/outputs/CategoryID&quot;/&gt;
     &lt;link source=&quot;/inputs/catalog/category/products/product/SerialNumber&quot; target=&quot;/outputs/outputs/SerialNumber&quot;/&gt;
-    &lt;link source=&quot;/inputs/catalog/category/products/product/LeadTime&quot; target=&quot;/outputs/outputs/LeadTime&quot;/&gt;
     &lt;link source=&quot;/inputs/catalog/category/products/product/ProductDescription&quot; target=&quot;/outputs/outputs/ProductDescription&quot;/&gt;
-    &lt;link source=&quot;/inputs/catalog/category/products/product/ProductID&quot; target=&quot;/outputs/outputs/ProductID&quot;/&gt;
-    &lt;link source=&quot;/inputs/catalog/category/products/product/UnitPrice&quot; target=&quot;/outputs/outputs/UnitPrice&quot;/&gt;
-    &lt;link source=&quot;/inputs/catalog/category/products/product/ProductName&quot; target=&quot;/outputs/outputs/ProductName&quot;/&gt;
     &lt;link source=&quot;/inputs/catalog/category/products/product/ReorderLevel&quot; target=&quot;/outputs/outputs/ReorderLevel&quot;/&gt;
+    &lt;link source=&quot;/inputs/catalog/category/products/product/ProductID&quot; target=&quot;/outputs/outputs/ProductID&quot;/&gt;
     &lt;link source=&quot;/inputs/catalog/category/CategoryName&quot; target=&quot;/outputs/outputs/CategoryName&quot;/&gt;
+    &lt;link source=&quot;/inputs/catalog/category/products/product/UnitPrice&quot; target=&quot;/outputs/outputs/UnitPrice&quot;/&gt;
+    &lt;link source=&quot;/inputs/catalog/category/products/product/LeadTime&quot; target=&quot;/outputs/outputs/LeadTime&quot;/&gt;
   &lt;/links&gt;
 &lt;/transformModel&gt;</attribute>
   <attribute name="xqueryModel" type="NULL"/>
@@ -328,6 +356,35 @@
               &lt;/xslt:element&gt;
             &lt;/xslt:for-each&gt;
           &lt;/xslt:for-each&gt;
+          &lt;xslt:element name=&quot;result&quot;&gt;
+            &lt;xslt:element name=&quot;ProductID&quot;&gt;
+              &lt;xslt:value-of select=&quot;$_ProductID&quot;/&gt;
+            &lt;/xslt:element&gt;
+            &lt;xslt:element name=&quot;ProductName&quot;&gt;
+              &lt;xslt:value-of select=&quot;$_ProductName&quot;/&gt;
+            &lt;/xslt:element&gt;
+            &lt;xslt:element name=&quot;CategoryID&quot;&gt;
+              &lt;xslt:value-of select=&quot;$_CategoryID&quot;/&gt;
+            &lt;/xslt:element&gt;
+            &lt;xslt:element name=&quot;CategoryName&quot;&gt;
+              &lt;xslt:value-of select=&quot;$_CategoryName&quot;/&gt;
+            &lt;/xslt:element&gt;
+            &lt;xslt:element name=&quot;ProductDescription&quot;&gt;
+              &lt;xslt:value-of select=&quot;$_ProductDescription&quot;/&gt;
+            &lt;/xslt:element&gt;
+            &lt;xslt:element name=&quot;SerialNumber&quot;&gt;
+              &lt;xslt:value-of select=&quot;$_SerialNumber&quot;/&gt;
+            &lt;/xslt:element&gt;
+            &lt;xslt:element name=&quot;UnitPrice&quot;&gt;
+              &lt;xslt:value-of select=&quot;$_UnitPrice&quot;/&gt;
+            &lt;/xslt:element&gt;
+            &lt;xslt:element name=&quot;ReorderLevel&quot;&gt;
+              &lt;xslt:value-of select=&quot;$_ReorderLevel&quot;/&gt;
+            &lt;/xslt:element&gt;
+            &lt;xslt:element name=&quot;LeadTime&quot;&gt;
+              &lt;xslt:value-of select=&quot;$_LeadTime&quot;/&gt;
+            &lt;/xslt:element&gt;
+          &lt;/xslt:element&gt;
         &lt;/xslt:for-each&gt;
       &lt;/xslt:for-each&gt;
     &lt;/xslt:element&gt;
