@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
 <metadata name="ViewSales" path="/shared/examples/ViewSales" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="NONE">
-  <annotation><![CDATA[ffff]]></annotation>
+  <annotation><![CDATA[....]]></annotation>
   <columns>
     <column name="ProductID" nullable="true">
       <datatype type="DECIMAL" maxDigits="32" maxFractionalDigits="0"/>
@@ -155,7 +155,7 @@ FROM
   <attribute name="creatorUserDomain" type="STRING"/>
   <attribute name="creatorUserName" type="STRING"/>
   <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
-  <attribute name="lastModifiedDate" type="LONG">1697563293564</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1697652266077</attribute>
   <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
   <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
   <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
